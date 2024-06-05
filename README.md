@@ -1,5 +1,5 @@
 
-# Autonomous Electric Vehicle Custom Environment
+# OpenAI Gym Custom Environment (Autonomous Electric Vehicle)
 
 This project simulates an Autonomous Electric Vehicle using `numpy`, `pygame`, and `gymnasium`. The vehicle performs various actions such as finding passengers, picking them up, and maintaining battery levels while avoiding obstacles and recharging when necessary.
 
@@ -16,15 +16,15 @@ This project simulates an Autonomous Electric Vehicle using `numpy`, `pygame`, a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/autonomous-ev-simulation.git
-    cd autonomous-ev-simulation
+    git clone https://github.com/your-username/openai-gym-custom-environment.git
+    cd openai-gym-custom-environment
     ```
 
 2. Create a virtual environment and activate it:
 
     ```sh
     python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    source env/bin/activate  # On Windows use `env\\Scripts\\activate`
     ```
 
 3. Install the required dependencies:
@@ -39,7 +39,6 @@ Run the simulation:
 
 ```sh
 python env_8048.py
-```
 
 ## Dependencies
 
